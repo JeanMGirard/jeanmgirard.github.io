@@ -1,6 +1,6 @@
 **.old*
 /.env
-/src/environments
+/src/environments/*.ts
 
 
 

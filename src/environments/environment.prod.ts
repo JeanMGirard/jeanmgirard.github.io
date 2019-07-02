@@ -2,22 +2,22 @@
 export const environment = {
   production: true,
   api: {
-    live: false
+    live: true
   },
   google: {
     maps: {
-      apiKey: "AIzaSyCnytCiaWQVAtdHzLA6t5QTPg1GJpdTUfM",
-      placeId: "ChIJWT1fs-DVyEwRKReSmjRY_zo",
-      shortUrl: "https://goo.gl/maps/ezBjXdjLmcSuYs5f7",
-      coordinates: "45.702482,-73.924219"
+      apiKey: "XXXXXXXXXXXXXXXXXXXX",
+      placeId: "XXXXXXXXXXXXXXXXXXXX",
+      shortUrl: "XXXXXXXXXXXXXXXXXXXX",
+      coordinates: "XXXXXXX,XXXXXXXX"
     }
   },
   firebase: {
-    apiKey:        "AIzaSyBKauQURmQOhq42euNANPZjkqCtSbub_1E",
-    authDomain:    "biscuitsetcreme.firebaseapp.com",
-    databaseURL:   "https://biscuitsetcreme.firebaseio.com",
-    projectId:     "biscuitsetcreme",
-    storageBucket: "biscuitsetcreme.appspot.com",
-    messagingSenderId: "803100349000"
+    apiKey:        "AIzaSyBQBsDWqLXVvd-K2V2HTIemTavtd82rwEE",
+    authDomain:    "jeanmgirard.web.app",
+    databaseURL:   "https://jeanmgirard.firebaseio.com",
+    projectId:     "jeanmgirard",
+    storageBucket: "jeanmgirard.appspot.com",
+    messagingSenderId: "660782310815"
   }
 };
