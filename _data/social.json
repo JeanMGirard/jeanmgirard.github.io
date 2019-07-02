@@ -1,0 +1,23 @@
+[
+  {
+    "icon": "fa-linkedin",
+    "link": "https://www.linkedin.com/in/jeanmgirard/"
+  },
+  {
+    "icon": "fa-github",
+    "link": "https://github.com/JeanMGirard"
+  },
+  {
+    "icon": "fa-stack-exchange",
+    "link": "https://stackoverflow.com/users/7011649/jeanmgirard",
+    "link2": "https://stackexchange.com/users/9427027/jeanmgirard"
+  },
+  {
+    "icon": "fa-npm",
+    "link": "https://www.npmjs.com/~jeanmgirard"
+  },
+  {
+    "icon": "fa-python",
+    "link": "https://pypi.org/user/JeanMGirard/"
+  }
+]
