@@ -1,7 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-// JeanMGirard App Modules
+
+// JeanMGirard Core
+import { environment } from '../environments/environment';
+import { CoreModule } from '../core/core.module';
+import { AuthService, AuthGuard } from '../core/auth/auth.service';
+import { AuthModule } from '../core/auth/auth.module';
+
+// JeanMGirard App
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -15,23 +22,29 @@ import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 // Markdown modules
 import { MarkdownModule } from 'ngx-markdown';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MarkdownModule.forRoot(),
-    AngularFireModule.initializeApp(environment.firebase, 'biscuitsetcreme'),
+    AngularFireModule.initializeApp(environment.firebase, environment.firebase.projectId),
     AngularFirestoreModule,
     AngularFireDatabaseModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
-    AngularFireFunctionsModule
+    AngularFireFunctionsModule,
+
+    CoreModule,
+    AuthModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
