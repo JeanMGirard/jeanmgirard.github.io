@@ -3,6 +3,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Tutorials
+[All tutorials](/Tutorials/)
 
 ## Awesome-Lists
-
+[All lists](/Awesome-Lists/)
